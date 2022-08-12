@@ -1,0 +1,29 @@
+:root {
+    --color: #5865f2;
+    --background: #282a36;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: var(--background);
+}
+
+.list {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: #e206a2;
+}
+
+.btn {
+    color:white;
+    border: solid 1px #e206a2;
+}
+.btn:hover {
+    color: white;
+    background: #e206a2;
+    border: solid 1px #e206a2;
+}
